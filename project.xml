@@ -1,0 +1,18 @@
+<project type="bio">
+  <property name="target.model" value="genomic"/>
+  <property name="common.os.prefix" value="common"/>
+
+<source name="go" type="go">
+  <property name="src.data.file" location="/data/go-annotation/go-basic.obo"/>
+</source>
+
+  <post-processing>
+    <post-process name="do-sources"/>
+    <post-process name="summarise-objectstore"/>
+    <post-process name="create-autocomplete-index"/>
+    <post-process name="create-search-index"/>
+
+  </post-processing>
+
+</project>
+
