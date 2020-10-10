@@ -1,14 +1,27 @@
-.gradle
-/build/
+bin/
+dist/
+client-dist/
+build/
+client-build/
+*.log
+*.log.*
+.settings
+.eclipse
+executeLog*
+*.pyc
+*.class
+productionLog
+*~
 
-# Ignore Gradle GUI config
-gradle-app.setting
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Cache of project
-.gradletasknamecache
-
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+# IDEs
+nbproject/
+nb-build.xml
+.idea/
+apache-tomcat*
+prefixed
+failures.list
+*.jks
+*.iml
+out/
+.gradle/
