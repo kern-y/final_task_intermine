@@ -5,7 +5,9 @@
   <property name="default.intermine.properties.file" location="../default.intermine.integrate.properties"/>
 
   <sources>
-
+<source name="entrez-organism" type="entrez-organism">
+  <property name="src.data.file" location="build/organisms.xml"/>
+</source>
   </sources>
 
   <post-processing>
