@@ -6,7 +6,7 @@
 
   <sources>
 <source name="go-annotation" type="go-annotation">
-  <property name="src.data.dir" location="~/myhumanmine/data/go-annotation"/>
+  <property name="src.data.dir" location="/home/miner/myhumanmine/data/go-annotation"/>
    <property name="ontologyPrefix" value="GO"/>
 </source>
   </sources>
