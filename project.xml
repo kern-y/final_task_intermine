@@ -5,8 +5,9 @@
   <property name="default.intermine.properties.file" location="../default.intermine.integrate.properties"/>
 
   <sources>
-<source name="entrez-organism" type="entrez-organism">
-  <property name="src.data.file" location="build/organisms.xml"/>
+<source name="go-annotation" type="go-annotation">
+  <property name="src.data.dir" location="~/myhumanmine/data/go-annotation"/>
+   <property name="ontologyPrefix" value="GO"/>
 </source>
   </sources>
 
